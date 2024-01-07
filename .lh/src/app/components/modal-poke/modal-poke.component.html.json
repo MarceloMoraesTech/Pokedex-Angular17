@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/app/components/modal-poke/modal-poke.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1704650956860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1704651421409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+<div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLable\" \r\n+aria-hidden=\"true\">\r\n+    <div>\r\n+        <div>\r\n+            <div>\r\n+                <h1></h1>\r\n+                <button></button>\r\n+            </div>\r\n+            <div>\r\n+                <ol>\r\n+                    <li></li>\r\n+                </ol>\r\n+            </div>\r\n+            <div>\r\n+                <button></button>\r\n+            </div>\r\n+        </div>\r\n+    </div>\r\n+</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1704651495188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLable\" \r\n aria-hidden=\"true\">\r\n-    <div>\r\n+    <div class=\"modal-dialog modal-dialog-centered modal-dialog-scrollable\">\r\n         <div>\r\n             <div>\r\n                 <h1></h1>\r\n                 <button></button>\r\n"
+                },
+                {
+                    "date": 1704651612724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLable\" \r\n aria-hidden=\"true\">\r\n     <div class=\"modal-dialog modal-dialog-centered modal-dialog-scrollable\">\r\n-        <div>\r\n+        <div class=\"modal-content\">\r\n             <div>\r\n                 <h1></h1>\r\n                 <button></button>\r\n             </div>\r\n"
+                },
+                {
+                    "date": 1704652020948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n <div class=\"modal fade\" id=\"exampleModal\" tabindex=\"-1\" aria-labelledby=\"exampleModalLable\" \r\n aria-hidden=\"true\">\r\n     <div class=\"modal-dialog modal-dialog-centered modal-dialog-scrollable\">\r\n         <div class=\"modal-content\">\r\n-            <div>\r\n-                <h1></h1>\r\n-                <button></button>\r\n+            <div class=\"modal-header\">\r\n+                <h1 class=\"modal-title fs-5\" id=\"exampleModalLabel\">Pokemon Abilities</h1>\r\n+                <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>\r\n             </div>\r\n             <div>\r\n                 <ol>\r\n                     <li></li>\r\n"
+                },
+                {
+                    "date": 1704652405259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,13 @@\n             <div class=\"modal-header\">\r\n                 <h1 class=\"modal-title fs-5\" id=\"exampleModalLabel\">Pokemon Abilities</h1>\r\n                 <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>\r\n             </div>\r\n-            <div>\r\n+            <div class=\"modal-body\">\r\n                 <ol>\r\n-                    <li></li>\r\n+                    @for (ability of data; track $index) {\r\n+                        <li> {{ ability.ability.name }} </li>\r\n+                    } @empty { <li>No abilities found.</li> }\r\n                 </ol>\r\n             </div>\r\n             <div>\r\n                 <button></button>\r\n"
+                },
+                {
+                    "date": 1704653490524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n                         <li> {{ ability.ability.name }} </li>\r\n                     } @empty { <li>No abilities found.</li> }\r\n                 </ol>\r\n             </div>\r\n-            <div>\r\n-                <button></button>\r\n+            <div class=\"modal-footer\">\r\n+                <button type=\"button\" class=\"btn\" data-bs-dismiss=\"modal\"></button>\r\n             </div>\r\n         </div>\r\n     </div>\r\n </div>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1704650956860,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

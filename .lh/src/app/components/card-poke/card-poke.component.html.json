@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1704610032326,
@@ -32,6 +32,14 @@
                 {
                     "date": 1704640273498,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,12 +10,12 @@\n   <div class=\"card-body card-poke__subtitle\">\r\n     <h3>Basic Information:</h3>\r\n   </div>\r\n   <div class=\"card-body\">\r\n-    <p class=\"card-text card-poke__text\"><strong>Number:</strong> {{data?.id}} </p>\r\n-    <p class=\"card-text card-poke__text\"><strong>Type:</strong>{{data?.type}}</p>\r\n-    <p class=\"card-text card-poke__text\"><strong>Weight:</strong>{{data?.weight}} lb.</p>\r\n-    <p class=\"card-text card-poke__text\"><strong>Height:</strong>{{data?.height}} ft.</p>\r\n+    <p class=\"card-text card-poke__text\"><strong>Number: </strong> {{data?.id}} </p>\r\n+    <p class=\"card-text card-poke__text\"><strong>Type: </strong>{{data?.type}}</p>\r\n+    <p class=\"card-text card-poke__text\"><strong>Weight: </strong>{{data?.weight}} lb.</p>\r\n+    <p class=\"card-text card-poke__text\"><strong>Height: </strong>{{data?.height}} ft.</p>\r\n   </div>\r\n   <hr>\r\n   <div class=\"card-body card-poke__subtitle\">\r\n     <h3>Abilities:</h3>\r\n"
+                },
+                {
+                    "date": 1704653644360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,7 +22,7 @@\n   </div>\r\n   <div class=\"d-grid col-6 mx-auto mb-5\">\r\n     <button type=\"button\" class=\"btn card-pokemon__btn\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">\r\n         View Abilities!</button>\r\n-        <!-- <app-modal-poke [data]=\"data?.abilities\"></app-modal-poke> -->\r\n+        <app-modal-poke [data]=\"data?.abilities\"></app-modal-poke>\r\n   </div>\r\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1704654163520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   <div class=\"card-body card-poke__subtitle\">\r\n     <h3>Abilities:</h3>\r\n   </div>\r\n   <div class=\"d-grid col-6 mx-auto mb-5\">\r\n-    <button type=\"button\" class=\"btn card-pokemon__btn\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">\r\n+    <button type=\"button\" class=\"btn card-poke__btn\" data-bs-toggle=\"modal\" data-bs-target=\"#exampleModal\">\r\n         View Abilities!</button>\r\n         <app-modal-poke [data]=\"data?.abilities\"></app-modal-poke>\r\n   </div>\r\n </div>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1704610032326,

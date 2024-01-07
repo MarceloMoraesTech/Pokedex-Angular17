@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { PokemonAbilities } from '../../models/pokedex.model';
 
 @Component({
   selector: 'app-modal-poke',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './modal-poke.component.scss'
 })
 export class ModalPokeComponent {
-
+  @Input() public data: undefined | PokemonAbilities[] = [];
 }
