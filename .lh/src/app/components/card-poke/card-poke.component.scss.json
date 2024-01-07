@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/components/card-poke/card-poke.component.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1704609608724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1704609608724,
+            "name": "Commit-0",
+            "content": ".card-poke {\r\n    width: 90%;\r\n    max-width: 25rem;\r\n    margin: 0 auto 5rem;\r\n    box-shadow: 0 0 .9rem var(--color-secondary);\r\n    border: 1.5px solid var(--color-primary);\r\n    overflow: hidden;\r\n    border-radius: .375rem;\r\n    -webkit-border-radius: .375rem;\r\n    -moz-border-radius: .375rem;\r\n    -ms-border-radius: .375rem;\r\n    -o-border-radius: .375rem;\r\n  \r\n    &__btn {\r\n      background-color: var(--color-primary);\r\n      border: none;\r\n      color: white;\r\n      cursor: pointer;\r\n      transition: all .3s ease-in-out;\r\n      text-transform: capitalize;\r\n  \r\n      &:hover {\r\n        background-color: var(--color-secondary);\r\n      }\r\n    }\r\n  \r\n    &__img {\r\n      padding: 3rem;\r\n    }\r\n  \r\n    &__text {\r\n      text-transform: capitalize;\r\n    }\r\n  \r\n    &__title {\r\n      text-transform: capitalize;\r\n      text-align: center;\r\n      font-size: 2rem;\r\n    }\r\n  \r\n    &__subtitle {\r\n      text-transform: capitalize;\r\n    }\r\n  }"
+        }
+    ]
+}

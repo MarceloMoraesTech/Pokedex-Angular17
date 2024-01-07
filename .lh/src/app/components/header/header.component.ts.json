@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/components/header/header.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1704604881915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1704604881915,
+            "name": "Commit-0",
+            "content": "import { Component, Input } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-header',\r\n  standalone: true,\r\n  imports: [],\r\n  templateUrl: './header.component.html',\r\n  styleUrl: './header.component.scss'\r\n})\r\nexport class HeaderComponent {\r\n  @Input() public title!: string;\r\n  @Input() public subtitle!: string;\r\n}\r\n"
+        }
+    ]
+}

@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1704600138944,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1704604273462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,6 @@\n     styleUrl: './app.component.scss',\r\n     imports: [CommonModule, RouterOutlet, NavbarComponent]\r\n })\r\n export class AppComponent {\r\n- \r\n+    title = 'Pokedex Angular-17';\r\n }\r\n"
                 }
             ],
             "date": 1704600138944,

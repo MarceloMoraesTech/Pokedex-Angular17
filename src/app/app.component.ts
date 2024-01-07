@@ -11,5 +11,5 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     imports: [CommonModule, RouterOutlet, NavbarComponent]
 })
 export class AppComponent {
- 
+    title = 'Pokedex Angular-17';
 }

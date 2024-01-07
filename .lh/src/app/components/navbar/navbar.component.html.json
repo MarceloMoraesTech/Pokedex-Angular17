@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1704600421472,
@@ -24,6 +24,14 @@
                 {
                     "date": 1704601825143,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <nav class=\"navbar navbar-poke\">\r\n-    <div class=\"\">\r\n+    <div class=\"container-fluid\">\r\n         <a [routerLink]=\"['/']\" class=\"\" >\r\n             <img width=\"105\" height=\"42\" src=\"assets/images/poke-logo.png\" alt=\"logo\"/>\r\n         </a>\r\n     </div>\r\n"
+                },
+                {
+                    "date": 1704605052061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <nav class=\"navbar navbar-poke\">\r\n     <div class=\"container-fluid\">\r\n-        <a [routerLink]=\"['/']\" class=\"\" >\r\n+        <!-- <a [routerLink]=\"['/']\" class=\"\" >\r\n             <img width=\"105\" height=\"42\" src=\"assets/images/poke-logo.png\" alt=\"logo\"/>\r\n-        </a>\r\n+        </a> -->\r\n     </div>\r\n </nav>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1704605072230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <nav class=\"navbar navbar-poke\">\r\n     <div class=\"container-fluid\">\r\n-        <!-- <a [routerLink]=\"['/']\" class=\"\" >\r\n+        <a [routerLink]=\"['/']\" class=\"\" >\r\n             <img width=\"105\" height=\"42\" src=\"assets/images/poke-logo.png\" alt=\"logo\"/>\r\n-        </a> -->\r\n+        </a>\r\n     </div>\r\n </nav>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1704600421472,
