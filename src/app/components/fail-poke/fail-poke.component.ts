@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './fail-poke.component.scss'
 })
 export class FailPokeComponent {
-
+  public title: string = 'No pokemon found.';
 }
